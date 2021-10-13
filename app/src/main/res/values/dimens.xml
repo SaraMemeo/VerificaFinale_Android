@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_regular">10dp</dimen>
+    <dimen name="line_spacing">5sp</dimen>
+    <dimen name="lateral_pudding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="header_dim">25sp</dimen>
+    <dimen name="regular_text">20dp</dimen>
+</resources>

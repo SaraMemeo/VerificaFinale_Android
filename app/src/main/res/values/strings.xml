@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">VerificaFinale_Android</string>
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_log_in">LOGIN</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="mainActivity">Main Activity</string>
+    <string name="action_registrazione">Registrazione</string>
+    <string name="item_2">Rice</string>
+    <string name="item_1">Cheese</string>
+    <string name="item_3">Eggs</string>
+    <string name="item_4">Apple</string>
+    <string name="hint_nome_reg">Nome</string>
+    <string name="hint_cognome_reg">Cognome</string>
+    <string name="hint_eta_reg">Età</string>
+    <string name="hint_telefono_reg">Telefono</string>
+    <string name="hint_citta_reg">Città</string>
+    <string name="hint_provincia_reg">Provincia</string>
+    <string name="hint_username_reg">Username</string>
+    <string name="hint_password_reg">Password</string>
+    <string name="radio_F">F</string>
+    <string name="radio_M">M</string>
+    <string name="reg_button">Crea \n Account</string>
+</resources>

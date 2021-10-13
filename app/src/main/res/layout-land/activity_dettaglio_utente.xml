@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_regular"
+    android:paddingRight="@dimen/lateral_pudding"
+    android:paddingLeft="@dimen/lateral_pudding"
+    tools:context=".DettaglioUtenteActivity">
+
+    <TextView
+        android:id="@+id/dettaglio_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="@dimen/padding_regular"
+        android:text="Scheda Dettagli Utente:"
+        android:textAlignment="viewStart"
+        android:textSize="@dimen/header_dim"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dettaglio_header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/show_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text=""
+                android:textSize="@dimen/regular_text"
+                android:textAlignment="viewStart" />
+
+            <TextView
+                android:id="@+id/show_cognome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/show_eta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/show_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/show_citta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/show_provincia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/show_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/show_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20dp"
+                android:text="" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
